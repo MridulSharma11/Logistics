@@ -1,0 +1,38 @@
+2021-11-19 17:22:05.581  INFO 16836 --- [main] c.e.logisticModule.LogisticsApplication  : Starting LogisticsApplication using Java 11.0.12 on DESKTOP-G3553QV with PID 16836 (D:\DDrive\F-Drive\CESWorkspace\Logistics\target\classes started by MRIDUL SHARMA in D:\DDrive\F-Drive\CESWorkspace\Logistics)
+2021-11-19 17:22:05.583  INFO 16836 --- [main] c.e.logisticModule.LogisticsApplication  : No active profile set, falling back to default profiles: default
+2021-11-19 17:22:06.180  INFO 16836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-19 17:22:06.190  INFO 16836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-19 17:22:06.190  INFO 16836 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-19 17:22:06.251  INFO 16836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-19 17:22:06.251  INFO 16836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 639 ms
+2021-11-19 17:22:06.516  INFO 16836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-19 17:22:06.525  INFO 16836 --- [main] c.e.logisticModule.LogisticsApplication  : Started LogisticsApplication in 1.209 seconds (JVM running for 1.755)
+2021-11-19 17:22:32.011  INFO 16836 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-19 17:22:32.013  INFO 16836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-19 17:22:32.014  INFO 16836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-19 17:22:32.104  INFO 16836 --- [http-nio-8080-exec-1] c.e.l.c.ShipmentTrackController          : 32435667 and FedEx
+2021-11-19 17:23:36.823  INFO 16836 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-11-19 18:01:14.586  WARN 22768 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/MRIDUL%20SHARMA/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/MRIDUL%20SHARMA/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2021-11-19 18:01:14.603  INFO 22768 --- [main] c.e.l.LogisticsApplicationTests          : Starting LogisticsApplicationTests using Java 11.0.12 on DESKTOP-G3553QV with PID 22768 (started by MRIDUL SHARMA in D:\DDrive\F-Drive\CESWorkspace\Logistics)
+2021-11-19 18:01:14.605  INFO 22768 --- [main] c.e.l.LogisticsApplicationTests          : No active profile set, falling back to default profiles: default
+2021-11-19 18:01:16.052  INFO 22768 --- [main] c.e.l.LogisticsApplicationTests          : Started LogisticsApplicationTests in 1.727 seconds (JVM running for 2.775)
+2021-11-19 18:01:54.470  WARN 6344 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/MRIDUL%20SHARMA/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/MRIDUL%20SHARMA/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2021-11-19 18:01:54.487  INFO 6344 --- [main] c.e.l.LogisticsApplicationTests          : Starting LogisticsApplicationTests using Java 11.0.12 on DESKTOP-G3553QV with PID 6344 (started by MRIDUL SHARMA in D:\DDrive\F-Drive\CESWorkspace\Logistics)
+2021-11-19 18:01:54.489  INFO 6344 --- [main] c.e.l.LogisticsApplicationTests          : No active profile set, falling back to default profiles: default
+2021-11-19 18:01:55.895  INFO 6344 --- [main] c.e.l.LogisticsApplicationTests          : Started LogisticsApplicationTests in 1.67 seconds (JVM running for 2.502)
