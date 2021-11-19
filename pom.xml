@@ -12,7 +12,7 @@
 	<artifactId>Logistics</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Logistics</name>
-	<description>Track Shipments</description>
+	<description>Track Shipments</description> 
 	<properties>
 		<java.version>11</java.version>
 	</properties>

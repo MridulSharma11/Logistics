@@ -11,7 +11,7 @@ public class TrackStatuses {
 		return trackId;
 	}
 	public void setTrackId(String trackId) {
-		this.trackId = trackId;
+		this.trackId = trackId; 
 	}
 	public String getSlug() {
 		return slug;

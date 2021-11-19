@@ -8,7 +8,7 @@ public class ShipmentInfo {
 	private String tracking_number;
 	private String title;
 	private String[] smses;
-	private String[] emails;
+	private String[] emails; 
 	private String order_id;
 	private String order_id_path;
 	private CustomFields custom_fields;

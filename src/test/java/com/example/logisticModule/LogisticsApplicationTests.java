@@ -16,7 +16,7 @@ class LogisticsApplicationTests {
 
 	@Test
 	void contextLoads() {
-	}
+	} 
 
 	
 	@Autowired

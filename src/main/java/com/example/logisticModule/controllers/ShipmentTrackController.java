@@ -20,7 +20,7 @@ public class ShipmentTrackController {
 	@Autowired
 	ShipmentTrackServices shipmentTrackServices;
 	
-
+ 
 	Logger logger = LoggerFactory.getLogger(ShipmentTrackController.class);
 	private final String CREATE_SHIPMENT_ISSUE = "Facing issue while creating a Track. Please connect with the Customer Support For the details";
 	private final String TRACKING_DETAILS_FETCH_ISSUE = "Please connect with the Customer Support For the details";
@@ -59,7 +59,7 @@ public class ShipmentTrackController {
 				re = shipmentTrackServices.showTrackandStatus(code, TrackId);
 			} else {
 				logger.error(MANDATORY_SLUG_TRACKINGNUMBER);
-				re = ResponseEntity.ok().body(MANDATORY_SLUG_TRACKINGNUMBER);
+				re = ResponseEntity.ok().body(MANDATORY_SLUG_TRACKINGNUMBER); 
 			}
 
 		} catch (Exception ex) {
